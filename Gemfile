@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'sinatra'
 gem 'rerun'
+gem 'matts_palindrome'
 
 group :test do
   gem 'minitest'
