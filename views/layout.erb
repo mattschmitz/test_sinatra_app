@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Toy Sinatra App</title>
+    <title>Toy Sinatra App | <%= @title %></title>
     <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"
           rel="stylesheet">
@@ -12,6 +12,7 @@
       <img src="/images/logo.jpg" alt="the beautiful and magnificent Sean Luna McAdams">
     </a>
     <div class="container">
+      <%= erb :navigation %>
       <div class="content">
         <%= yield %>
       </div>
